@@ -1,0 +1,448 @@
+*{
+    padding-left: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+/* header section css code start here */
+
+.header-section{
+    width: 100%;
+}
+.header-section .top-header{
+    width: 100%;
+    background: #f5f7fa;
+    padding: 5px 0px;
+}
+/* top header info part css code st */
+
+.header-section .top-header .inner-info ul{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+.header-section .top-header .inner-info ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header-section .top-header .inner-info ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #506a85;
+    margin-right: 15px;
+
+
+}
+.header-section .top-header .inner-info ul li a:hover{
+    color: #00bc9c;
+}
+.header-section .top-header .inner-info ul li a .fa{
+    margin-right: 8px;
+}
+/* top header info part css code end */
+
+/* top header social icons part css code st */
+.header-section .top-header .social-icons{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: right;
+}
+.header-section .top-header .social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.header-section .top-header .social-icons li a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #506a85;
+    margin-left: 15px;
+
+
+}
+.header-section .top-header .social-icons li a:hover{
+    color: #00bc9c;
+}
+
+/* top header social icons part css code end */
+
+/* main menu css code start here */
+.main-menu{
+    width: 100%;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition: .5s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,.main-menu .navbar-light .navbar-nav .nav-link:focus{
+    color: #00bc9c;
+}
+.main-menu .fa-search{
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main-menu .fa-search:hover, .main-menu .fa-search:focus{
+    color: #00bc9c;  
+}
+/* main menu css code end here */
+
+/* header section css code end here */
+
+/* slider section css code start here */
+.slider-section{
+    width: 100%;
+}
+.slider-section .carousel-caption{
+    bottom: 30%;
+}
+.slider-section .carousel-caption h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.slider-section .carousel-caption p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+
+}
+.slider-section .carousel-caption .btn-info{
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    margin: 35px 0px 0px;
+    transition: .5s;
+}
+.slider-section .carousel-caption .btn-info:hover,       .slider-section .carousel-caption .btn-info:focus{
+    background:transparent ;
+    border: 1px solid #00bc9c;
+    color:#00bc9c;
+}
+/* slider section css code end here */
+/* who we r section css code start here */
+.who-we-r{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+.who-we-r .title{
+    width: 100%;
+    padding: 0px 0px 40px;
+    text-align: center;
+}
+.who-we-r .title h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #506a85;
+}
+.who-we-r .title p{
+    width: 53%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+    
+}
+.who-we-r .media{
+    padding: 30px 0px 0px;
+}
+.who-we-r .media-body {
+  
+    padding: 0px 10px;
+    color: #506a85;
+   
+}
+}
+.who-we-r .media-body h5{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px;
+  
+}
+
+.who-we-r .media-body p{
+    font-size: 14px;
+    line-height: 24px;
+}
+/* who we r section css code end here */
+
+/* portfolio section css code start */
+.portfolio-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f5f7;
+}
+
+.portfolio-section .title{
+    width: 100%;
+    padding: 0px 0px 40px;
+    text-align: center;
+}
+.portfolio-section .title h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #506a85;
+}
+.portfolio-section .title p{
+    width: 53%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+}
+
+    /* card css code here */
+  
+
+   
+    
+.portfolio-section .card-body{
+    text-align: center;
+
+}
+
+.portfolio-section .card-body h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #73879c;
+ 
+}
+.portfolio-section .card-body p{
+ 
+    font-size: 14px;
+    line-height: 24px;
+    color: #73879c;
+}
+.portfolio-section .owl-carousel{
+    width: 100%;
+    padding: 60px 0px 0px;
+}
+.portfolio-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+   
+}
+.portfolio-section .owl-theme .owl-dots .owl-dot.active span{
+    background: #00bc9c;
+}
+
+/* portfolio section css code end */
+
+/* get in teach section code start */
+.get-intouch{
+    width: 100%;
+    padding: 80px 0px;
+   
+}
+.get-intouch .title{
+    width: 100%;
+    text-align: center;
+}
+.get-intouch .title h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #506a85;
+}
+.get-intouch .title p{
+    width: 53%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+}
+.get-intouch .btn-primary{
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    margin: 35px 0px 0px;
+    transition: .5s;
+}
+.get-intouch .btn-primary:hover, .get-intouch .btn-primary:focus{
+    background:transparent ;
+    border: 1px solid #00bc9c;
+    color:#00bc9c;
+
+}
+/* get in teach section code end */
+
+
+/*footer section css code start  */
+.footer{
+    width: 100%;
+}
+.footer .top-footer{
+    width: 100%;
+    padding: 65px 0px;
+    background: #2f4052;
+}
+.inner-widget{
+    width: 100%;
+}
+.inner-widget h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px 0px 30px;
+
+}
+.inner-widget img{
+    margin-bottom: 25px;
+}
+.inner-widget p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #8c9aa8;
+    margin-bottom: 30px;
+
+
+}
+.inner-widget a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #8c9aa8;
+}
+.inner-widget .fa-long-arrow-right{
+    margin-left: 10px;
+}
+.inner-widget .card {
+   
+    border:none;
+    border-radius: 0;
+}
+.inner-widget .card img{
+    margin-bottom: 0px;
+}
+.inner-widget .mb-4{
+    margin-bottom: .5rem!important;
+    padding-right: 0px!important;
+    padding-left: 8px;
+}
+}
+.inner-widget .card-img, .inner-widget .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.inner-widget .fa{
+    margin-right: 10px;
+}
+.col-md-3 .inner-widget{
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+.footer-form{
+    width: 100%;
+    position: relative;
+}
+.footer-form .form-control {
+    height: auto;
+    padding: 10px 5px;
+    background: #4e5c6c;
+    border: 1px solid  #4e5c6c;
+    color: #a3b1bf;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.footer-form .btn-primary {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    border-radius: 5px;
+}
+.footer-form .btn-primary:hover, .footer-form .btn-primary:focus{
+    background:transparent;
+    border: 1px solid #fff;
+    color:  #00bc9c;
+}
+.bottom-footer{
+    width: 100%;
+    background: #283645;
+    padding: 10px 0px;
+
+
+}
+.bottom-footer p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #8c9aa8;
+    margin: 10px 0px 0px;
+
+    
+}
+
+.bottom-footer .inner-info ul{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: right;
+}
+.bottom-footer .inner-info ul li{
+    list-style: none;
+    display: inline-block;
+   
+    
+}
+.bottom-footer .inner-info ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #506a85;
+   
+
+
+}
+
+/*footer section css code end  */
